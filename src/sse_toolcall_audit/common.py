@@ -46,7 +46,7 @@ def text(value, name):
     return value
 
 def emit(report, output=None):
-    encoded = json.dumps(report, ensure_ascii=False, allow_nan=False, indent=2) + "\n"
+    encoded = json.dumps(report, ensure_ascii=not bool(output), allow_nan=False, indent=2) + "\n"
     if output:
         with Path(output).open("x", encoding="utf-8") as stream:
             stream.write(encoded)
