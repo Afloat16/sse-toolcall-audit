@@ -1,0 +1,19 @@
+{
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "id": "call_demo",
+            "type": "function",
+            "function": {
+              "name": "lookup",
+              "arguments": "{\"city\":\"Shanghai\"}"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
