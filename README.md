@@ -2,7 +2,7 @@
 
 Offline SSE capture auditor for Chat Completions and Responses tool-call assembly, completion and semantic comparison.
 
-[中文](README.zh-CN.md) · [Demand evidence](docs/EVIDENCE.md) · [License](LICENSE)
+**English** · [简体中文](README.zh-CN.md) · [Demand evidence](docs/EVIDENCE.md) · [License](LICENSE)
 
 Independent, experimental utility maintained by **Afloat16**. Original implementation; no upstream endorsement is implied.
 
@@ -50,3 +50,8 @@ python -m build
 The configured CI matrix covers Ubuntu, Windows and macOS with Python 3.10/3.13; inspect Actions for actual results. Fixtures are synthetic. No private captures or upstream user attachments are redistributed.
 
 Report problems with command/version, expected/actual result and a minimal synthetic reproduction. Keep source attribution and compatible licensing. MIT license, copyright Afloat16.
+
+
+## Related projects
+
+[Browse Afloat16's project guide](https://github.com/Afloat16/research-to-fix/blob/main/docs/PROJECTS.md) for robotics diagnostics, model interfaces, 3D geometry and engineering workflows.
