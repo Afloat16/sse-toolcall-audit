@@ -39,7 +39,7 @@ Targeted tool-result audit, not validation of every protocol field. Two stochast
 
 ## Output and development
 
-Audit commands exit 0 for no error findings, 1 for errors (also warnings with --strict), and 2 for malformed input/report-write failure. Pose conversion exits 0 for a valid conversion and 2 for input/write errors. --output creates a new JSON file exclusively; existing files are never overwritten. Detailed audit findings are capped at 200 while total severity counts remain accurate.
+Audit commands exit 0 for no error findings, 1 for errors (also warnings with --strict), and 2 for malformed input/report-write failure. --output creates a new JSON file exclusively; existing files are never overwritten. Detailed audit findings are capped at 200 while total severity counts remain accurate.
 
 ```bash
 python -m unittest discover -s tests -v

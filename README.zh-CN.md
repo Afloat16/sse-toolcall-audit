@@ -13,7 +13,7 @@ python -m pip install -e '.[dev]'
 sse-toolcall-audit examples/chat.sse --compare examples/final.json
 ```
 
-基础离线路径使用标准库，无需 GPU、ROS 运行环境或模型权重。输入保持只读，输出必须是新文件，不覆盖已有文件。审计退出码：0 无错误，1 有错误（strict 也把警告当作失败），2 输入或写入失败；位姿转换有效完成返回 0，输入/写入失败返回 2。
+基础离线路径使用标准库，无需 GPU、ROS 运行环境或模型权重。输入保持只读，输出必须是新文件，不覆盖已有文件。审计退出码：0 无错误，1 有错误（strict 也把警告当作失败），2 输入或写入失败。
 
 ## 验证
 
